@@ -13,8 +13,14 @@
     "url": "https://github.com/tryggingamidstodin/response-with-promise/issues"
   },
   "scripts": {
-    "lint": "jshint ."
+    "lint": "jshint .",
+    "test": "mocha",
+    "dev": "mocha -w"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  }
 }
