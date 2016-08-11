@@ -1,0 +1,19 @@
+{
+  "name": "response-with-promise",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Tryggingamidstodin <bt.hugbunadargerd@tm.is> (https://github.com/tryggingamidstodin/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tryggingamidstodin/response-with-promise.git"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "ci": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  }
+}
