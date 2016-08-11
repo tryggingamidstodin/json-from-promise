@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git://github.com/tryggingamidstodin/response-with-promise.git"
   },
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/tryggingamidstodin/response-with-promise/issues"
+  },
   "scripts": {
     "lint": "jshint ."
   },
