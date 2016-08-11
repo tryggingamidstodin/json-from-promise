@@ -9,11 +9,8 @@
     "url": "git://github.com/tryggingamidstodin/response-with-promise.git"
   },
   "scripts": {
-    "lint": "jshint .",
-    "ci": "npm run lint"
+    "lint": "jshint ."
   },
   "dependencies": {},
-  "devDependencies": {
-    "jshint": "^2.9.2"
-  }
+  "devDependencies": {}
 }
