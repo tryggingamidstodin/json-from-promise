@@ -1,16 +1,16 @@
 {
-  "name": "response-with-promise",
+  "name": "json-from-promise",
   "version": "0.0.1",
   "description": "",
   "author": "Tryggingamidstodin <bt.hugbunadargerd@tm.is> (https://github.com/tryggingamidstodin/)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tryggingamidstodin/response-with-promise.git"
+    "url": "git://github.com/tryggingamidstodin/json-from-promise.git"
   },
   "license": "mit",
   "bugs": {
-    "url": "https://github.com/tryggingamidstodin/response-with-promise/issues"
+    "url": "https://github.com/tryggingamidstodin/json-from-promise/issues"
   },
   "scripts": {
     "lint": "jshint .",
