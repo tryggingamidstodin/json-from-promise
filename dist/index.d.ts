@@ -1,1 +1,1 @@
-export default function jsonFromPromise(fn: any): (req: any, res: any, next: any) => void;
+export declare function jsonFromPromise(fn: any): (req: any, res: any, next: any) => void;

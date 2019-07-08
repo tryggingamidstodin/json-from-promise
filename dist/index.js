@@ -7,5 +7,5 @@ function jsonFromPromise(fn) {
             .catch(next);
     };
 }
-exports.default = jsonFromPromise;
+exports.jsonFromPromise = jsonFromPromise;
 //# sourceMappingURL=index.js.map

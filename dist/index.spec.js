@@ -6,7 +6,7 @@ const request = require("supertest");
 describe('express', () => {
     it('should respond', () => {
         const app = express();
-        app.get('/ping/:msg', _1.default(req => Promise.resolve({ pong: req.params.msg })));
+        app.get('/ping/:msg', _1.jsonFromPromise(req => Promise.resolve({ pong: req.params.msg })));
         return request(app)
             .get('/ping/foo')
             .expect(200, {
@@ -15,7 +15,7 @@ describe('express', () => {
     });
     it('should return 500 on error', () => {
         const app = express();
-        app.get('/ping/:msg', _1.default(() => Promise.reject(new Error('testerror'))));
+        app.get('/ping/:msg', _1.jsonFromPromise(() => Promise.reject(new Error('testerror'))));
         return request(app)
             .get('/ping/foo')
             .expect(500);

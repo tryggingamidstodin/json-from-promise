@@ -1,6 +1,6 @@
 {
   "name": "json-from-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "Tryggingamidstodin <bt.hugbunadargerd@tm.is> (https://github.com/tryggingamidstodin/)",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
     "compile-watch": "tsc --project . --watch",
     "test": "mocha 'dist/**/*.spec.js'",
     "test-watch": "mocha 'dist/**/*.spec.js' --watch",
-    "ci": "npm run lint && npm run format-verify && npm run test",
+    "ci": "npm run compile && npm run lint && npm run format-verify && npm run test",
     "prepublishOnly": "npm run ci"
   },
   "devDependencies": {

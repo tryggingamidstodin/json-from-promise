@@ -1,5 +1,5 @@
 'use strict'
-import jsonFromPromise from './'
+import { jsonFromPromise } from './'
 import * as express from 'express'
 import * as request from 'supertest'
 
